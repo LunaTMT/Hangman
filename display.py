@@ -34,9 +34,6 @@ class Display:
         print("\t\t", self.w)
         print("\t\t", self.p)
         
-        
-        
-
         match state:
             case "W":
                 print("\t\t You Win!")
