@@ -7,7 +7,6 @@ class Word(dict):
         self.length = len(self.word)
         super().__init__(dict.fromkeys(self.word, '_'))
 
-
     def __str__(self) -> str:
         return f" Word : {self.word}"
 
