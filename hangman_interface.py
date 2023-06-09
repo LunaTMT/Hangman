@@ -3,7 +3,6 @@ from display import Display
 from word import Word
 from hangman import Hangman
 
-
 class HangmanInterface:
     
     def __init__(self) -> None:
@@ -12,7 +11,6 @@ class HangmanInterface:
         self.hangman = Hangman(self.player, self.word)
         self.display = Display(self.hangman)
         
-
     def run(self) -> None:
         while self.player.lives >= 0:
             print(self.display)
