@@ -1,5 +1,4 @@
 import os
-
 clear = lambda: os.system('clear')
 
 class Display:
@@ -8,8 +7,7 @@ class Display:
         self.HANGMAN = hangman
         self.player = hangman.player
         self.word = hangman.word
-
-            
+          
     def __str__ (self) -> str:
         clear()
         return f""" 
